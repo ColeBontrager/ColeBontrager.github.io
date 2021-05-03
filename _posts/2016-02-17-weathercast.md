@@ -2,12 +2,12 @@
 layout: inner
 position: left
 title: 'Weathercast'
-date: 2016-02-20 15:56:00
+date: 2020-03-07 15:56:00
 categories: development
-tags: JavaScript AngularJS API Sass
+tags: Unity ProceduralGeneration ParticleEffects
 featured_image: '/img/posts/02_weathercast-1130x864-2x.png'
-project_link: 'http://github.com/jamigibbs/weathercast'
-button_icon: 'github'
+project_link: 'https://colebontrager.github.io/about/'
+button_icon: ''
 button_text: 'Visit Project'
 lead_text: 'A simple weather forecast app for your favorite city.'
 ---
