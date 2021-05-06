@@ -1,0 +1,41 @@
+---
+galleries:
+ # gallery number one
+ 1:
+   # row one in gallery one
+   -
+     - { url: '/media/ArrowSprite.PNG', alt: 'alt 1'}
+     - { url: '/media/ArrowConstruction.PNG', alt: 'alt 2'}
+     - { url: '/media/ArrowFinal.PNG', alt: 'alt 3'}
+
+ # gallery number two
+ 2:
+  # row one in gallery two
+   -
+     - { url: '/media/DragonSpin.gif', alt: 'alt 4'}
+     - { url: '/media/DragonFireBreath.gif', alt: 'alt 5'}
+ 3:
+   # row one in gallery three
+   -
+     - { url: '/media/AlivePic.PNG', alt: 'alt 1'}
+     - { url: '/media/DeadPic.PNG', alt: 'alt 2'}
+     - { url: '/media/InfectedPic.PNG', alt: 'alt 3'}
+     - { url: '/media/DyingPic.PNG', alt: 'alt 4'}
+---
+
+
+{% assign rows = page.galleries[include.gallery] %}
+
+{% comment %}%}-----------------
+  We now loop over rows
+%}-----------------{% endcomment %}
+{% for row in rows %}
+<div class="row">
+    {% comment %}%}-----------------
+      and then loop over images in row
+    %}-----------------{% endcomment %}
+    {% for img in row %}
+        <p>src="{{ site.baseurl }}{{ img.url }}" alt="{{ img.alt }}"</p>
+    {% endfor %}
+</div>
+{% endfor %}
