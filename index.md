@@ -12,6 +12,6 @@ layout: default
 
 _Exploring Procedural Generation and Particle Systems in Unity_
 
-[Visit Project](./arcane.html)
+[Visit Project](./arcane)
 
 
