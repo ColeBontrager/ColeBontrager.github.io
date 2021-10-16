@@ -2,9 +2,7 @@
 layout: default
 ---
 
-<a href="https://colebontrager.github.io/ColeBontrager-Resume.pdf" target="_blank">PDF.</a>
-
-//[Resume](/ColeBontrager-Resume.pdf)
+<a href="https://colebontrager.github.io/ColeBontrager-Resume.pdf" target="_blank">Resume</a>
 
 # Check Out My Projects
 
