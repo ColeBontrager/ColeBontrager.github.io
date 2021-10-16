@@ -2,13 +2,15 @@
 layout: default
 ---
 
-[Resume](./ColeBontrager-Resume.PDF)
+<a href="https://colebontrager.github.io/ColeBontrager-Resume.pdf" target="_blank">PDF.</a>
+
+//[Resume](/ColeBontrager-Resume.pdf)
 
 # Check Out My Projects
 
 ## Possession Obsession
 
-![Possession Obsession](/media/POScreenshot2.PNG)
+![Possession Obsession](/media/POScreenshot1.png)
 
 _In this local multiplayer action game, compete against your friends by using your abilities as a spirit and possessing mortals to complete tasks for the devil._
 
