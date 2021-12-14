@@ -24,7 +24,7 @@ Role: Programmer
 
 ![Arcane](/media/AlivePic.PNG)
 
-`Solo Project` `Procedural Generation` `Particle Systems` `Unity` `C#`
+`Solo Project` `Demo` `Procedural Generation` `Particle Systems` `Unity` `C#`
 
 [Visit Project](./arcane)
 

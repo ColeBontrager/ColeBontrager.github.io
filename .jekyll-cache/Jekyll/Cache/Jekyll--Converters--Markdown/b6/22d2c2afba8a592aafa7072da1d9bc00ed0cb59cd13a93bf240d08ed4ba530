@@ -1,4 +1,4 @@
-I"<h1 id="arcane">Arcane</h1>
+I"C<h1 id="arcane">Arcane</h1>
 
 <p>Arcane is a solo project developed in Unity. In Arcane, a 3D 3rd person action roguelike, players fight their way through increasingly difficult worlds with procedurally generated terrain, enemies, and loot. Players will defeat enemies with magic spells, working to upgrade their spells and conquer each world’s boss to advance to the next one.</p>
 
@@ -46,7 +46,7 @@
   <img src="/media/ArrowFinal.gif" alt="animated" height="300" width="700" />
 </p>
 
-<p>The main challenge I faced with particle effects in Arcane was learning to workaround the limitations caused by my lack of experience with technical art. Making textures and 3D modeling were beyond my skillset as a programmer, but these skills seemed necessary for representing objects such as fireballs in my game. While researching various methods to make the magical spells in Arcane come to life, I found a technique that would allow me to use simple 2D sprites to make 3D effects. Above you can see the general workflow I used to make the energy arrow attack in Arcane. I started by making a sprite in Photoshop, which I then layered in multiple rotations to create the general shape of the object. Usinf the particle system to continuously spawn and rotate each of these sprites made the spell appear 3D from any angle you can view it at. Finally, I added some particle trails as the projectile traveled and exploded to make its movement less static.</p>
+<p>While researching various methods to make the magical spells in Arcane come to life, I found a technique that would allow me to use simple 2D sprites to make 3D effects. Above you can see the general workflow I used to make the energy arrow attack in Arcane. I started by making a sprite in Photoshop, which I then layered in multiple rotations to create the general shape of the object. Usinf the particle system to continuously spawn and rotate each of these sprites made the spell appear 3D from any angle you can view it at. Finally, I added some particle trails as the projectile traveled and exploded to make its movement less static.</p>
 
 <p align="middle">
   <img src="/media/DragonSpin.gif" alt="animated" />
